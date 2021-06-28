@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -6,3 +11,12 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character-details{
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  padding: 1.5rem;
+}
