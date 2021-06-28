@@ -9,18 +9,21 @@ const Character = (props) => {
 
     const character = props.character
 
-    const Section = styled.section`
+    const Article = styled.article`
         background-color: skyblue;
         border-radius: 5px;
         margin: .5em;
         padding: .5em 1em;
+        text-align: left;
     `;
 
     return (
-        <Section >
+        <Article>
             <h3>Character name: {character.name}</h3>
             <p>{character.name}'s birth year is {character.birth_year}</p>
-        </Section> 
+            <p>{character.name}'s gender is {character.gender}</p>
+            <p>{character.name}'s eye color is {character.eye_color}</p>
+        </Article> 
     )
 }
 

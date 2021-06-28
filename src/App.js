@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Characters from './components/Characters'
-// import Character from "./components/Character"
 import axios from 'axios'
 import './App.css';
 
@@ -20,14 +19,12 @@ const App = () => {
     .catch(err => console.log('Could not get characters', err))
   } , [])
 
-  // console.log(characters);
+  
 
   return (
     <div className="App">
       <h1 className="Header">Characters</h1> 
-      <div className="character-details">
-        <Characters characters={characters} />
-      </div> 
+      <Characters characters={characters} />
     </div>
   );
 }
