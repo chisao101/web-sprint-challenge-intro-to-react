@@ -19,7 +19,7 @@ const Character = (props) => {
 
     return (
         <Article>
-            <h3>Character name: {character.name}</h3>
+            <h3>{character.name}</h3>
             <p>{character.name}'s birth year is {character.birth_year}</p>
             <p>{character.name}'s gender is {character.gender}</p>
             <p>{character.name}'s eye color is {character.eye_color}</p>
